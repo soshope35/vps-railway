@@ -51,7 +51,7 @@ RUN python3.11 -m pip install --no-cache-dir \
 
 
 WORKDIR /root
-RUN git clone https://github.com/soshope35/vps-railway.git
+RUN git clone https://github.com/soshope35/vps-railway
 
 
 RUN mkdir /var/run/sshd
